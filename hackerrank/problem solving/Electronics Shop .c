@@ -21,7 +21,7 @@ int main(){
     }
     long long int sum=0,x=0;
     long long int *a;
-    a = (long long int*) malloc(3000 * sizeof(long long int));
+    a = (long long int*) malloc(1000000 * sizeof(long long int));
     for(long long int i=0;i<nk;i++){
         for(long long int j=0;j<nu;j++){
             sum=k[i]+u[j];
