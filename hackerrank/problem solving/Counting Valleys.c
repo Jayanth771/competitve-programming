@@ -18,7 +18,8 @@ int main(){
     
     for(int i=0;i<n;i++){
         if(str[i]=='U'){
-            if(++sum==0){
+            sum++;
+            if(sum==0){
                 count++;
             }
         }
