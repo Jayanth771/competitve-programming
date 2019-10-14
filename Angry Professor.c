@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+//no need for standard library and string library
 
     int main() {
    int t;
