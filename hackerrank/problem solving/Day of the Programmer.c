@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-
 void day_of_programmer(int year){
     if (year == 1918){
         printf("26.09.1918");
