@@ -1,6 +1,4 @@
 #include <stdio.h>
-//no need for standard library and string library
-
     int main() {
    int t;
     scanf("%d",&t);
