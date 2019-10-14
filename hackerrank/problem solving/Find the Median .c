@@ -14,7 +14,7 @@ void swap(long long int* a, long long int* b)
     *a = *b; 
     *b = t; 
 } 
-  
+  //The following two functions implement quick sort which arranges the given array of elements in an ascending order//
 int partition (long long int arr[], long long int low, long long int high) 
 { 
     long long int pivot = arr[high];    
@@ -59,7 +59,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%lld,",&a[i]);
     }
-   quickSort(a, 0, n-1);
+   quickSort(a, 0, n-1);//Calling the predefined quicksort function to arrange the numbers in the array//
     long long int median;
     if(n%2==0){
         median=(a[n/2]+a[(n/2)-1])/2;
