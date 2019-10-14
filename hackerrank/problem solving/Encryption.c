@@ -10,7 +10,7 @@ int main(){
     n=strlen(str);
     int i,j; 
     i=sqrt(n);
-    if(n==1 || n==4 || n==9 || n==16 || n==25 || n==36 || n==49 || n==64 || n==81){
+    if(n<=81 && ((n/sqrt(n))==sqrt(n))){
         j=i;
     }else{
     j=i+1;
