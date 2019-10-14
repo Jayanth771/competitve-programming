@@ -34,3 +34,4 @@ int main(){
     }
     printf("%d\n%d",ca,co);
 }
+//unnecessary loops could have been avoided very easily in your case, theyve increased the time complexity of your program significantly
