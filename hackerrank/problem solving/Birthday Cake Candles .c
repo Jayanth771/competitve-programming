@@ -15,12 +15,17 @@ int main(){
     for(int i=0;i<age;i++){
         scanf("%lld",&arr[i]);
     }
+
     long long int m=arr[0];
+    
     for(int i=0;i<age;i++){
         if(arr[i]>m){
             m=arr[i];
-        }}
+        }
+    }
+    
     long long int ans=0;
+    
     for(int i=0;i<age;i++){
         if(arr[i]==m){
             ans++;
@@ -28,4 +33,5 @@ int main(){
     }
     printf("%lld",ans);
     
+    return 0;
 }
