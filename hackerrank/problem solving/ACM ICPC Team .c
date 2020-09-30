@@ -5,13 +5,13 @@
 //  Copyright © 2019 Jayanth. All rights reserved.
 //
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
 
 
 int main()
 {
-    int m,n,count,num=0,res=0;
+    int m,n,count,res=0,num=0;
     scanf("%d%d",&m,&n);
     int i,j,k;char a[m][n];
     for(i=0;i<m;i++)
@@ -29,10 +29,10 @@ int main()
             for(k=0;k<n;k++)
             {
                 if((a[i][k]-48)|(a[j][k]-48))
-                    count++;
+                    ++count;
             }
             if(num==count)
-                res++;
+                ++res;
             if(count>num)
             {
                 num=count;
