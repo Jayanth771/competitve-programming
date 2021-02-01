@@ -9,18 +9,23 @@
 #include <string.h>
 int main(){
     int arr[26];
-    for(int i=0;i<26;i++){
+    int i = 0;
+    while(i<26){
         scanf("%d",&arr[i]);
+        i = i + 1;
     }
     char *str;
     str=(char*)malloc(10*sizeof(char));
     scanf("%s",str);
     int n=strlen(str);
-    int x=0;
+    int x;
+    x = 0;
     int arr1[1000];
-    for(int i=0;i<n;i++){
+    i = 0;
+    while(i<n){
         arr1[x]=(int)str[i];
         x++;
+        i++;
     }
     int a[1000];
     int y=0;
@@ -34,12 +39,15 @@ int main(){
         }
     }
     int m=a[0];
-    for(int i=0;i<y;i++){
+    i = 0;
+    while(i<y){
         if(a[i]>m){
             m=a[i];
         }
+        i = i + 1;
     }
     printf("%d",m*n);
+    return 0;
 }
 
 
